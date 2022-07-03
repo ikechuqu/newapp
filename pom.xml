@@ -3,16 +3,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>maven-web-application</artifactId>
+	<artifactId>jack-rose</artifactId>
 	<packaging>war</packaging>
-	<version>2.0.5-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	
-	<name>maven-web-application</name>
+	<name>jack-rose</name>
 
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>ACADA Learning</name>
+		<name>Eagles Inc.</name>
 		<url>http://acadalearning.com/</url>
 	</organization>
 
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://172.31.81.112:7000/</sonar.host.url>
+		<sonar.host.url>http://172.31.89.141:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -96,14 +96,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>ACADA Learning Releases Nexus Repository</name>
-	      <url>http://172.31.86.108:8081/repository/rbc-app-release/</url>
+	      <name>jack and rose wedding page Release Repository</name>
+	      <url>http://172.31.89.141:8081/repository/resume-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>ACADA Learning Snapshot Nexus Repository </name>
-	      <url>http://172.31.86.108:8081/repository/shared-lib-snapshot/</url>
+	      <name>jack and rose wedding page Snapshot Repository </name>
+	      <url>http://172.31.89.141:8081/repository/resume-snapshot</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
